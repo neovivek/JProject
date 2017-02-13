@@ -1,0 +1,22 @@
+@font-face{
+    font-family: opensans;
+    src: url(../fonts/opensans.ttf);
+}
+body{
+    padding-top: 50px;
+    font-family: opensans;
+}
+.alert.alert-dismissible{
+    box-shadow: 2px 2px 7px #C1C1C1;
+    text-align: center;
+    z-index: 5;
+}
+.subfooter {
+    background-color: #900E1B;
+    color: white;
+	border-top: 1px solid #f3f3f3;
+	padding: 40px 0;
+}
+.subfooter p {
+	margin-bottom: 0;
+}

@@ -1,0 +1,64 @@
+.navbar-inverse {
+    border-color: white;
+    background-image: -webkit-linear-gradient(left,#A20606 0,#651F4D 100%);
+    background-image: -o-linear-gradient(left,#A20606 0,#651F4D 100%);
+    background-image: -webkit-gradient(linear,left ,right ,from(#A20606),to(#651F4D));
+    background-image: linear-gradient(to right,#A20606 0,#651F4D 100%);
+}
+.navbar-inverse .navbar-brand {
+    float: none;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+}
+.navbar-header {
+    float: none;
+}
+button.btn.btn-lg {
+    outline: none;
+    border: none;
+}
+.form-signin {
+  max-width: 382px;
+  padding: 15px;
+  margin: 0 auto;
+}
+h3.form-signin-heading {
+    text-align: center;
+    color: #F3AB4F;
+    font-size: 18px;
+    line-height: 1.3em;
+    padding: 17px 18px;
+    font-family: opensans;
+    border: 1px solid rgb(255, 71, 71);
+    border-radius: 5px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="mobile"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

@@ -1,0 +1,31 @@
+.l-setting .modal-header{
+border-bottom: 1px solid #8D8D8D;
+}
+.l-setting .jumbotron{
+	padding-top: 20px;
+background: none;
+border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CDCDCD;
+border-radius: 0;
+background-color: white;
+}
+.l-setting .form-horizontal .control-label:first-child{
+	text-align: left;
+}
+.l-setting .form-horizontal .form-group{
+border-bottom: 1px solid #C4C4C4;
+margin: 0;
+padding: 4px 0;
+cursor: pointer;
+}
+.l-setting .form-horizontal .form-group:hover{
+background: #F7F7F7;
+}
+.l-setting .secondary-form{
+display: none;
+}
+.l-setting .settings-container {
+    z-index: 2;
+    position: relative;
+    top: 57px;
+}
